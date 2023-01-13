@@ -43,7 +43,7 @@ public class StudentListAdapter223 extends ListAdapter<Student, StudentListAdapt
             super(itemView);
             name = getView(itemView, R.id.name);
             regNo = getView(itemView, R.id.reg_no);
-            attn = getView(itemView, R.id.attn_perc);
+            attn = getView(itemView, R.id.attn);
             gender = getView(itemView, R.id.gender);
         }
 

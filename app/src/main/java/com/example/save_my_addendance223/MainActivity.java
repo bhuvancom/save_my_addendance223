@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     MyAppDB myAppDB;
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.attandance_menu, menu);
@@ -55,14 +54,6 @@ public class MainActivity extends AppCompatActivity {
         return layout.getEditText().getText().toString();
     }
 
-    int getMarks223(String value) {
-        try {
-            return Integer.parseInt(value);
-        } catch (NumberFormatException e) {
-            Log.d(TAG, "getMarks223: error in parse " + e.getMessage());
-        }
-        return 0;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

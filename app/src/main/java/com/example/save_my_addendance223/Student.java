@@ -2,7 +2,6 @@ package com.example.save_my_addendance223;
 
 /**
  * Author  : Mohit
- * Date    : 1:30 PM
  **/
 
 public class Student {

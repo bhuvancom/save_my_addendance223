@@ -33,6 +33,7 @@ public class StudentList223 extends AppCompatActivity {
                 return oldItem == newItem;
             }
         };
+
         int show = getIntent().getIntExtra("show", 0);
         StudentListAdapter223 studentListAdapter223 = new StudentListAdapter223(itemCallback);
         MyAppDB myAppDB = new MyAppDB(this);
@@ -49,6 +50,11 @@ public class StudentList223 extends AppCompatActivity {
             student = myAppDB.getAllMale();
         } else {
             student = myAppDB.getAllStudent();
+        }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
         textView.setText(msg);
         studentListAdapter223.submitList(student);

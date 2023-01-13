@@ -25,6 +25,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name="com.example.save_my_addendance223.StudentList223" />
     </application>
 
 </manifest>
