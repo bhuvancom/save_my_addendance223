@@ -39,9 +39,10 @@ public class StudentList223 extends AppCompatActivity {
         MyAppDB myAppDB = new MyAppDB(this);
         List<Student> student = null;
         String msg = "All Student";
+
         if (show == 25) {
-            msg = "Students with attendance less than 25%";
             student = myAppDB.get25Perc();
+            msg = "Students with attendance less than 25% are " + (student.size());
         } else if (show == 65) {
             msg = "Students with attendance less than 65%";
             student = myAppDB.get65Student();
@@ -51,6 +52,7 @@ public class StudentList223 extends AppCompatActivity {
         } else {
             student = myAppDB.getAllStudent();
         }
+
         try {
             Thread.sleep(500);
         } catch (InterruptedException e) {

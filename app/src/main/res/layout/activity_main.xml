@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -86,17 +87,19 @@
                 android:text="@string/gender" />
 
             <RadioGroup
+                android:id="@+id/rg_atn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/rg_atn"
                 android:orientation="horizontal"
                 android:tooltipText="@string/gender">
+
                 <RadioButton
                     android:id="@+id/rb_male"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="true"
                     android:text="@string/male" />
+
                 <RadioButton
                     android:id="@+id/rb_fmale"
                     android:layout_width="wrap_content"

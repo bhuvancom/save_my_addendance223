@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -30,7 +31,7 @@
         android:id="@+id/rv_students"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:layout_below="@id/tv_menu_top2"
+        android:orientation="vertical"
         tools:listitem="@layout/student_item" />
 </RelativeLayout>
