@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_all"
+        android:title="@string/show_students" />
+    <item
+        android:id="@+id/menu_65"
+        android:title="@string/show_student_under_65_attendance" />
+    <item
+        android:id="@+id/menu_25"
+        android:title="@string/show_student_under_25_attendance" />
+    <item
+        android:id="@+id/menu_male"
+        android:title="@string/show_all_male_students" />
+</menu>

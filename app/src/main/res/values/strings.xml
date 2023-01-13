@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">savemyattendance223</string>
+    <string name="menu_sc_mohit">Designed by K. Sai Mohit Kumar 20191CSE0223</string>
+    <string name="submit">Submit</string>
+    <string name="name">Name</string>
+    <string name="reg_no">Roll no</string>
+    <string name="avg_65_pec">Student with attendance less than 65%</string>
+    <string name="attndnc">Attendance %</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="show_student_under_65_attendance">Show student under 65% attendance</string>
+    <string name="show_students">Show all students</string>
+    <string name="show_student_under_25_attendance">Show students under 25% attendance</string>
+    <string name="avg_60_pec">student list</string>
+    <string name="show_all_male_students">Show all male students</string>
+</resources>
